@@ -26,4 +26,5 @@ easyBtn.addEventListener('click', function () {
     easyContain.append(square);
     console.log(square);
   }
+
 })
