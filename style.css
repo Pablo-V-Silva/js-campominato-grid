@@ -54,30 +54,45 @@ button#hard:hover {
   background: rgb(100, 10, 28);
 }
 
-#containerEasy,
-#containerMedium,
-#containerHard {
+#contain {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: auto;
+  margin-bottom: 5rem;
 }
 
-#containerEasy {
+.easywidth {
   width: 1000px;
-  min-width: 1000px;
 }
 
-#containerMedium {
-  min-width: 900px;
+.easyWidth {
+  width: 1000px;
 }
 
-#containerHard {
-  min-width: 700px;
+.mediumWidth {
+  width: 900px;
+}
+
+.hardWidth {
+  width: 700px;
 }
 
 .square {
   width: 100px;
   height: 100px;
   border: 1px solid wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.purple {
   background-color: darkslateblue;
+}
+
+.selected {
+  background-color: limegreen;
 }
